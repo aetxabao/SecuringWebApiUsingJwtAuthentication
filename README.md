@@ -10,6 +10,12 @@ La base de datos SQLite está en el fichero Customers.db. Para ejecutar el servi
 dotnet add package Microsoft.EntityFrameworkCore.SQLite
 ```
 
+Para confiar en el certificado de desarrollo de HTTPS, ejecute el comando siguiente:
+
+```
+dotnet dev-certs https --trust
+```
+
 El API del servicio puede ser visible en [Swagger](https://localhost:5001/swagger/index.html "API Swagger") cuando se está ejecutando.
 
 ![API del servicio](https://github.com/aetxabao/SecuringWebApiUsingJwtAuthentication/blob/main/swagger_SWAUJA.png?raw=true)
